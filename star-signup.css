@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    background-color: #444;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     animation: odys .1s 1s forwards linear;
+     
+}
+@keyframes odys{
+    from{
+        background-image: url(images/geompic.jpg);
+        background-position: 90%;
+        transform: scale(1.1);
+        background-attachment: fixed;
+    
+    
+    }
+    to{
+        background-image: url(images/geompic2.jpg);
+        background-position: 90%;
+        background-attachment: fixed;
+    
+    
+    }
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.alls{
+    background-color: #999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 1em;
+    box-shadow: 0 0 10px 0 black;
+    text-align: center;
+    width: 65vh;
+    height: 85vh;
+    max-width: 100%; 
+}
+.put{
+  background-color: #999;
+  border: 1px solid black;
+  border-radius: .5em;
+  margin: .5em;
+  margin-bottom: 0%;
+  outline: none;
+  width: 80%;
+}
+.put:hover{
+    background-color: white;
+    box-shadow: 0 0 8px 0 black;
+}
+.date{
+    border-radius: .5em;
+    border: 1px solid black;
+}
+.date:focus,
+.date:hover{
+    background-color: #999;
+}
+.btn{
+    background-color: #222;
+    outline: none;
+    border: 1px solid #222;
+    border-radius: .5em;
+    padding: .8em;
+    margin-top: 1em;
+    color: white;
+}
+.btn2{
+    padding: .4em;
+    font-size: 1.1rem;
+    box-shadow: 0 0 5px 0 blue;
+}
+.btn2:hover,
+.btn2:focus {
+    background-color: #999;
+    color: blue;
+   
+}
+.btn a {
+    text-decoration: none;
+    color: inherit;
+}
+.welcome{
+    font-size: 1.2em;
+    text-align: center;
+} 
+.btn0{
+    background-color: #222;
+    outline: none;
+    border: 1px solid #222;
+    border-radius: .5em;
+    padding: .3em;
+    color: white;
+}
+.btn11{
+    padding: .3em;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
